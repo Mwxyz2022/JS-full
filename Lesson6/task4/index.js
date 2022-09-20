@@ -20,6 +20,7 @@ function swapManual(numbers) {
         destrArr.push(numbers[i]);
     }
     destrArr.push(numbers[0]);
+
     return destrArr;
 }
 
