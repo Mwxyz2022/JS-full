@@ -1,15 +1,14 @@
-'use strict';
-
 /**
  * @param {number[]} arr
  * @return {boolean}
  */
 const checkSum = arr => {
-    if (!Array.isArray(arr)) return null;
-    let getSumArr = 0;
-    for (let num of arr) getSumArr += num;
-    if (getSumArr >= 100) return true;
-    if (getSumArr < 100) return false;
+  if (!Array.isArray(arr)) return null;
+  const array = [];
+  let getSumArr = 0;
+  for (const num of arr) getSumArr += num;
+  if (getSumArr >= 100) return true;
+  if (getSumArr < 100) return false;
 };
 
 // examples
