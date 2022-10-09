@@ -22,4 +22,4 @@ function friend(friends) {
 }
 console.log(friend(['Ryan', 'Kieran', 'Mark']));
 
-['Ryan', 'Kieran', 'Mark'];
+
