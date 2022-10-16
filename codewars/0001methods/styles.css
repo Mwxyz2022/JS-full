@@ -5,10 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.code {
-  font-family: 'Source Code Pro', monospace;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -18,7 +14,58 @@ header {
   background-color: rgba(144, 109, 173, 0.281);
   font-size: 1, 6em;
 }
+.navigation {
+  display: flex;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+.navEll {
+  color: rgb(255, 208, 0);
+}
 
-/* .name {
-  color: ;
-} */
+.method {
+  border: 2px solid rgb(255, 208, 0);
+  margin: 20px 20px 0;
+
+  /* background-color: rgba(34, 34, 34, 0.623); */
+}
+
+.method__name {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  margin: 10px 0;
+}
+
+.method__code {
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.method__description {
+  margin: 15px;
+}
+
+.description {
+  margin: 20px;
+}
+
+.description__title {
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.description__code {
+  font-family: 'Source Code Pro', monospace;
+  padding: 15px;
+  background-color: rgba(47, 126, 179, 0.226);
+}
+
+.code_ {
+  margin-left: 15px;
+  font-family: 'Source Code Pro', monospace;
+}
