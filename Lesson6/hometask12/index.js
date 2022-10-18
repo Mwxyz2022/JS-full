@@ -3,9 +3,6 @@ function removeDuplicates(array) {
   const getNewArr = [];
 
   for (let i = 0; i < array.length; i += 1) {
-    if (i === 0) {
-      getNewArr.push(array[0]);
-    }
     if (!getNewArr.includes(array[i])) {
       getNewArr.push(array[i]);
     }
