@@ -1,0 +1,30 @@
+
+//_1._Learn requirement(WHAT?)
+//_2._Create step by step algo (& input/output for function) (HOW?)
+//_3._Write draft solution & testing
+//_4._Refactoring & final testing -> final solution  
+
+//requirement
+//
+// input: integer 'number'
+// output: undefined 
+
+
+// algorithm 
+//
+//_1. iterate from 2 to num 
+//
+//_2. check if prime
+//    2_1. iterate from 2 to N 
+//    2_2. if N % iterator ===0 then NOT prime +++
+//
+//_3. if prime - print it 
+
+//      draft solution    //
+
+
+
+
+// testData
+console.log()
+
