@@ -4,27 +4,34 @@
 //_3._Write draft solution & testing
 //_4._Refactoring & final testing -> final solution  
 
+=======================================================================
+
 //requirement
 //
-// input: integer 'number'
-// output: undefined 
+// input: 
+// output: 
 
 
 // algorithm 
 //
-//_1. iterate from 2 to num 
+//_1. 
 //
-//_2. check if prime
-//    2_1. iterate from 2 to N 
-//    2_2. if N % iterator ===0 then NOT prime +++
-//
-//_3. if prime - print it 
+//_2. 
+//   
+//_3. 
 
-//      draft solution    //
+//    Draft solution    //
 
 
+//    Refactoring    //
 
 
 // testData
 console.log()
+
+
+
+
+
+
 

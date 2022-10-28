@@ -1,42 +1,64 @@
-// function square(num) {
-//   return num * num;
+// _1._Learn requirement(WHAT?)
+// _2._Create step by step algo (& input/output for function) (HOW?)
+// _3._Write draft solution & testing
+// _4._Refactoring & final testing -> final solution
+
+// requirement
+//
+// input: integer 'number'
+// output: undefined
+
+// algorithm
+//
+// _1. iterate from 2 to num
+//
+// _2. check if prime
+//    2_1. iterate from 2 to N
+//    2_2. if N % iterator ===0 then NOT prime +++
+//
+// _3. if prime - print it
+
+//      draft solution    //
+
+// function getPrimes(num) {
+//   for (let number = 2; number < num; number += 1) {
+//     let isPrime = true;
+
+//     for (let index = 2; index < number; index += 1) {
+//       if (number % index === 0) {
+//         isPrime = false;
+//       }
+//     }
+
+//     if (isPrime) {
+//       console.log(number);
+//     }
+//   }
 // }
 
-// // console.log(square(3));
-// // console.log(square(9));
-// // console.log(square(81));
-// // console.log(square(25));
+// Refactoring //
 
-// function square2(num) {
-//   console.log(num ** 2);
-// }
-
-// square2(2);
-
-// function square3(num) {
-//   console.log(Math.pow(num, 2);
-// }
-
-// // square3(2);
-// const arr = [1, 2, 3, 4, 5, 6];
-// const [a, s, q, w, e, r, t] = arr;
-
-// console.log(a, s, q, w, e, r, t);
+function isPrime(number) {
+  for (let index = 2; index < number; index += 1) {
+    if (number % index === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+// console.log();
 
 function getPrimes(num) {
-  for (let number = 2; number < num; number += 1) {
-    let isPrime = true;
-
-    for (let index = 2; index < number; index += 1) {
-      if (number % index === 0) {
-        isPrime = false;
-      }
-    }
-
-    if (isPrime) {
+  for (let number = 2; number <= num; number += 1) {
+    if (isPrime(number)) {
       console.log(number);
     }
   }
 }
 
+// // testData
+
 getPrimes(15);
+getPrimes(7);
+getPrimes(90);
+// // console.log()
