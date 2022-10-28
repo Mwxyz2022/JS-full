@@ -1,12 +1,32 @@
-const transformToObject = arr => {
-  const obj = {};
-  if (!Array.isArray(arr)) return obj;
-  arr.forEach(el => {
-    obj[el] = el;
-  });
-  return obj;
+// requirement
+//
+// input: [array]
+// output: {obj}
+
+// algorithm
+//
+// _1. проверить является вход массивом:
+//    нет - вернуть пустой obj.
+// _2. да - создать в obj key = value = [ell]
+//
+// _3. вернуть созданный obj.
+
+//    Draft solution    //
+// const transformToObject = array => {
+//   const obj = {};
+//   if (!Array.isArray(array)) return obj;
+//   array.forEach(el => {
+//     obj[el] = el;
+//   });
+//   return obj;
+// };
+
+//    Refactoring    //
+const transformToObject = array => {
+  if (!Array.isArray(array)) return {};
+  return array.reduce((acc, el) => ({ ...acc, [el]: el }), {});
 };
 
-// examples
+// testData
 console.log(transformToObject(['a', 17.1, 'John Doe']));
-// ==> { a: 'a', '17.1': 17.1, 'John Doe': 'John Doe' }
+console.log();

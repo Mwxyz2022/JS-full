@@ -1,11 +1,17 @@
-/* eslint-disable guard-for-in */
-/* eslint-disable no-restricted-syntax */
+// requirement
+//
+// input:{obj}
+// output:[array]
 
-/* Для решения этой задачи используй for..in цикл. В реальных проектах это плохая практика,
- * лучше использовать методы класса Object - keys(), values(), entries(). Но мы с ними пока не познакомитись.
- * Чтобы eslint не ругался на эту ошибку, для этой задачи он отключен аннотацией eslint-disable
- * */
+// algorithm
+//
+// _1. проиттерироваться по ключам входящего obj;
+//
+// _2.сложить их в массив;
+//
+// _3. вывести полученный массив;
 
+//    Draft solution    //
 const concatProps = obj => {
   const arr = [];
   for (const key in obj) {
@@ -15,7 +21,10 @@ const concatProps = obj => {
   return arr;
 };
 
-// examples
+//    Refactoring    //
+
+// testData
 console.log(concatProps({ name: 'John Doe', age: 17, interest: 'football' }));
 console.log(concatProps({}));
 // ==> ['John Doe', 17, 'football']
+console.log(concatProps({ NaN: 'John Doe', undefined, interest: 'football' }));
