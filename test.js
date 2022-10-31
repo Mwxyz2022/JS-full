@@ -38,27 +38,30 @@
 
 // Refactoring //
 
-function isPrime(number) {
-  for (let index = 2; index < number; index += 1) {
-    if (number % index === 0) {
-      return false;
-    }
-  }
-  return true;
-}
-// console.log();
+// function isPrime(number) {
+//   for (let index = 2; index < number; index += 1) {
+//     if (number % index === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// // console.log();
 
-function getPrimes(num) {
-  for (let number = 2; number <= num; number += 1) {
-    if (isPrime(number)) {
-      console.log(number);
-    }
-  }
-}
+// function getPrimes(num) {
+//   for (let number = 2; number <= num; number += 1) {
+//     if (isPrime(number)) {
+//       console.log(number);
+//     }
+//   }
+// }
 
-// // testData
+// // // testData
 
-getPrimes(15);
-getPrimes(7);
-getPrimes(90);
-// // console.log()
+// getPrimes(15);
+// getPrimes(7);
+// getPrimes(90);
+// // // console.log()
+const res = 'text';
+
+console.log(Number.isNaN());
