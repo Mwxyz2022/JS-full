@@ -1,4 +1,4 @@
-function reverseArray(arr) {
+export function reverseArray(arr) {
   if (!Array.isArray(arr)) return null;
   const reversArr = [];
   for (const num of arr) reversArr.unshift(num);
