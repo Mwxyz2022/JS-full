@@ -8,9 +8,12 @@
 
 
 lesson14
-    task1 - Лексическое окружение
-    task2 - Inner functions
-    hometask1 - Калькулятор с памятью
+    task1 - Лексическое окружение +
+    task2 - Inner functions + 
+    hometask1 - Калькулятор с памятью  +
 
 lesson15
-    task1 - Функция счетчик - пример замыкания
+    task1 - Функция счетчик - пример замыкания + 
+    hometask1 - Фабрика калькуляторов с памятью + 
+    hometask2 - Logger + 
+    
