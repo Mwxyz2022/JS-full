@@ -32,7 +32,7 @@ lesson17
     task3 - Переадресация вызова + 
 
     hometask1 - Вызов ф-ции с помощью call +
-    hometask2 - Вызов ф-ции с помощью apply
+    hometask2 - Вызов ф-ции с помощью apply +
     hometask3 - Функция с закрепленным контекстом
     hometask4 - Полное имя
 
