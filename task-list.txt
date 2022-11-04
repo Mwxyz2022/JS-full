@@ -10,23 +10,35 @@
 lesson14
     task1 - Лексическое окружение +
     task2 - Inner functions + 
+
     hometask1 - Калькулятор с памятью  +
 
 lesson15
     task1 - Функция счетчик - пример замыкания + 
+
     hometask1 - Фабрика калькуляторов с памятью + 
     hometask2 - Logger + 
 
 lesson16
     task1 - Объявление переменных +
     task2 - Массив функций +
+
     hometask1 - Фабрика функций + 
     hometask2 - var головоломка 
 
 lesson17
     task1 - Контекст выполнения функции + 
     task2 - Привязка контекста + 
-    task3 - Переадресация вызова
+    task3 - Переадресация вызова + 
+
+    hometask1 - Вызов ф-ции с помощью call
+    hometask2 - Вызов ф-ции с помощью apply
+    hometask3 - Функция с закрепленным контекстом
+    hometask4 - Полное имя
+
+    addtask1 - Таймер
+    addtask2 - Функция bind
+    addtask3 - .bind в действии
     
 
     
