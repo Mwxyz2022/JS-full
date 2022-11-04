@@ -36,9 +36,16 @@ lesson17
     hometask3 - Функция с закрепленным контекстом + 
     hometask4 - Полное имя
 
-    addtask1 - Таймер
+    addtask1 - Таймер + 
     addtask2 - Функция bind
     addtask3 - .bind в действии
+
+lesson18
+    task1 - This в callback
+    task2 - Заимствование метода
+    task3 - Работа с псевдо массивами
+
+    hometask1 - 1.Spy function
     
 
     
