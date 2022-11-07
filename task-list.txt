@@ -41,9 +41,9 @@ lesson17
     addtask3 - .bind в действии
 
 lesson18
-    task1 - This в callback
-    task2 - Заимствование метода
-    task3 - Работа с псевдо массивами
+    task1 - This в callback + 
+    task2 - Заимствование метода +
+    task3 - Работа с псевдо массивами +
 
     hometask1 - 1.Spy function
     
