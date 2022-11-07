@@ -69,7 +69,6 @@ function isPrime(number) {
   }
   return true;
 }
-// console.log();
 
 function getPrimes(num) {
   for (let number = 2; number <= num; number += 1) {
