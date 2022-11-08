@@ -52,6 +52,15 @@ lesson19
     task2 - Перебор собственных свойств объекта (for..in) +
     task3 - Конструктор объектов - прототипы + 
     task4 - Объект пользователя + 
+
+lesson20 - Classes
+    task1 - Конструктор объектов
+    task2 - Корабль
+    task3 - Защищенные поля
+
+    hometask1 - Order класс
+    hometask2 - User repository
+     
     
 
     
