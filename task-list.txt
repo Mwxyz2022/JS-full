@@ -1,32 +1,179 @@
+Js - full 
 
+lesson1 - Javascript intro
 
+    task1 - Hello, world again! 
 
+lesson2 - Variables and data types
 
+    task1 - Naming
+    task2 - Data types
+    task3 - Change primitives and objects
 
+    hometask1 - Working with numbers
 
+lesson3 - Operators
 
+    task1 - Using operators
+    task2 - Type casting
+    task3 - Comparison operators
+    task4 - Logical operators
+    task5 - Conditional operators
 
+    hometask1 - Practice with operators
 
-lesson14
+lesson4 - Loops (ESLint - зачем нужен & установка)
+
+    task1 - Cумма чисел от 1 до n
+    task2 - Умножение нечетных чисел от m до n
+    task3 - Таблица умножения
+
+    hometask1 - Configure ESLint
+    hometask2 - Строка из чисел
+    hometask3 - Math operations
+    hometask4 - Find odds sum
+    hometask5 - Сумма чисел на промежутке
+    hometask6 - Compare div and mod
+
+lesson5 - Functions
+
+    task1 - Simple sum
+    task2 - Функция - приветствие
+    task3 - Even/Odd function
+    task4 - Стрелочная ф-ция возводящая число в квадрат
+
+    hometask1 - Cумма четных чисел в заданном промежутке
+    hometask2 - Increaser with condition
+    hometask3 - Compare sums
+    hometask4 - Кратные на промежутке
+
+    addtask1 - Prime numbers
+
+lesson6 - Arrays
+
+    task1 - Get array elements
+    task2 - Sum array
+    task3 - Special numbers
+    task4 - Spread and destructuring
+
+    hometask1 - Пустой массив
+    hometask2 - Square array
+    hometask3 - Check sum
+    hometask4 - Increase evens
+    hometask5 - Переверните массив
+    hometask6 - Клон массива
+    hometask7 - Мин/макс массива
+    hometask8 - Сортировка массива
+    hometask9 - Withdraw
+    hometask10 - Первые n элементов исходного массива
+    hometask11 - My includes
+    hometask12 - Удаление дубликатов
+    hometask13 - Нахождение уникальных
+
+lesson7 - Array methods ( Code style & code quality)
+
+    task1 - Фильтрация массива
+    task2 - Sort массива
+    task3 - Плоский массив
+    task4 - Best students
+
+    hometask1 - Square array
+    hometask2 - Переверните массив
+    hometask3 - Увеличение четных - методы массивов
+    hometask4 - Клон массива - методы массивов
+    hometask5 - Withdraw - методы массивов
+    hometask6 - Сумма элементов массива
+    hometask7 - Фильтр имен
+    hometask8 - Нахождение среднего
+
+lesson8 - Objects basics
+
+    task1 - Создание объектов
+    task2 - Перебор свойств объектов
+
+    hometask1 - Read object properties
+    hometask2 - Назначение свойств объекта
+    hometask3 - Перебор ключей объекта
+    hometask4 - Доставание свойств из объекта
+    hometask5 - Фильтрация объекта
+
+lesson9 - Objects keys, values, entries
+
+    task1 - Методы работы с объектами
+    task2 - Копирование объекта
+    
+    hometask1 - Iterate object keys
+    hometask2 - Добавление свойства в объект
+    hometask3 - Merge objects
+    hometask4 - Объект в массив жителей
+    hometask5 - Посчитать баланс по всем транзакциям
+
+    addtask1 - Добавление computed property
+    addtask2 - Собрать объект
+    addtask3 - Compare two objects
+    addtask4 - Объект в масив пользователей
+
+    
+
+lesson10 - Numbers in details
+
+    task1 - Проверка чисел
+    task2 - Парсинг чисел
+    task3 - Rounding numbers
+    task4 - Max absolute number
+
+    hometask1 - Сумма дробных чисел
+    hometask2 - Random numbers array
+    hometask3 - Rounding numbers with precision
+
+lesson11 - String in details
+
+    task1 - Разбить текст на строки
+    task2 - Сортировка строк
+
+    hometask1 - Разбить строку на подстроки
+    hometask2 - Count occurences
+
+lesson12 - Practice with string
+
+    task1 - Калькулятор
+
+    hometask1 - Reverse String
+    hometask2 - Очистка данных о транзакциях
+
+lesson13 - Modules and unit tests (live server)
+
+    task1 - First tests with Jest
+    task2 - Test code in different files
+
+    hometask1 - Поиск наименьшего квадрата
+    hometask2 - Тестируем калькулятор
+    hometask3 - Unit tests for previous tasks
+
+lesson14 - Lexical environment, scope
+
     task1 - Лексическое окружение +
     task2 - Inner functions + 
 
     hometask1 - Калькулятор с памятью  +
 
-lesson15
+lesson15 - Сlosure
+
     task1 - Функция счетчик - пример замыкания + 
 
     hometask1 - Фабрика калькуляторов с памятью + 
     hometask2 - Logger + 
 
-lesson16
+lesson16 - Hoisting
+
     task1 - Объявление переменных +
     task2 - Массив функций +
 
     hometask1 - Фабрика функций + 
     hometask2 - var головоломка 
 
-lesson17
+lesson17 - Context (this) - part 1
+
     task1 - Контекст выполнения функции + 
     task2 - Привязка контекста + 
     task3 - Переадресация вызова + 
@@ -40,20 +187,23 @@ lesson17
     addtask2 - Функция bind
     addtask3 - .bind в действии
 
-lesson18
+lesson18 - Context (this) - part 2
+
     task1 - This в callback + 
     task2 - Заимствование метода +
     task3 - Работа с псевдо массивами +
 
     hometask1 - 1.Spy function
 
-lesson19
+lesson19 - Prototypes. Inheritance
+
     task1 - Корабль - прототипы +
     task2 - Перебор собственных свойств объекта (for..in) +
     task3 - Конструктор объектов - прототипы + 
     task4 - Объект пользователя + 
 
 lesson20 - Classes
+
     task1 - Конструктор объектов
     task2 - Корабль
     task3 - Защищенные поля
