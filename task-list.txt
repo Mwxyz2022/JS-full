@@ -204,13 +204,26 @@ lesson19 - Prototypes. Inheritance
 
 lesson20 - Classes
 
-    task1 - Конструктор объектов
-    task2 - Корабль
-    task3 - Защищенные поля
+    task1 - Конструктор объектов +
+    task2 - Корабль +
+    task3 - Защищенные поля +
 
-    hometask1 - Order класс
-    hometask2 - User repository
-     
-    
+    hometask1 - Order класс +
+    hometask2 - User repository +
 
-    
+lesson21 - Document object model (DOM)
+
+    task1 - Todo List - render list
+
+    hometask1.Поиск элемента на странице
+    hometask2.Поиск нескольких элементов на странице
+    hometask3.Получение содержимого элемента
+    hometask4.Update text content
+    hometask5.Установка дочерних элементов
+    hometask6.Очистка элемента
+    hometask7.Создание DOM элементов и вставка на страницу
+    hometask8.Создание DOM элементов и вставка на страницу - 2
+    hometask9.Установка атрибутов для DOM элементов
+    hometask10.Работа с классами для DOM элементов
+    hometask11.Дата атрибуты (data-attributes)
+    hometask12.Нахождение ближайшего родителя
