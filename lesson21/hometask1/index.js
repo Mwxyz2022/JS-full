@@ -1,12 +1,12 @@
 /// /
 //    1. Фу-и экспортируемые из файла:
-//       *
-//
+//       * getTitleElement - ищет класс в документе
+//       * getInputElement - ищет input по type в документе.
 //
 
 const classEl = '.title';
 
-const getTitleElement = clas => {
+export const getTitleElement = clas => {
   const titleElem = document.querySelector(clas);
   console.dir(titleElem);
   return titleElem;
@@ -16,7 +16,7 @@ getTitleElement(classEl);
 
 const typeEl = 'text';
 
-const getInputElement = typeElement => {
+export const getInputElement = typeElement => {
   const textEl = document.querySelector(`input[type=${typeElement}]`);
   console.dir(textEl);
   return textEl;
