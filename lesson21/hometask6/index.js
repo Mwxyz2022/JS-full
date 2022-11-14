@@ -7,4 +7,4 @@ export const clearList = () => {
 
   searchList.innerHTML = '';
 };
-clearList();
+// clearList();
