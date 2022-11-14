@@ -3,7 +3,9 @@
 //          * установить в него текст textContent
 
 export const setTitle = text => {
-  document.querySelector('.title').textContent = text;
+  const titleElem = document.querySelector('.title');
+
+  titleElem.textContent = text;
 };
 
 setTitle('op op op');
