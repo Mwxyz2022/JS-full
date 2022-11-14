@@ -7,12 +7,12 @@ export const squaredNumbers = () => {
   const elClassNumber = document.querySelectorAll('.number');
   console.log(elClassNumber);
   elClassNumber.forEach(el => {
-    console.log(el);
+    // console.log(el);
 
     const elNumber = el.dataset.number;
-    console.log(elNumber);
+    // console.log(elNumber);
     el.dataset.squaredNumber = elNumber ** 2;
-    console.log(el);
+    // console.log(el);
   });
 };
 
