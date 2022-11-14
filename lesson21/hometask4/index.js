@@ -2,8 +2,7 @@
 //          * найти на странице селектор ".title"
 //          * установить в него текст textContent
 
-// export
-const setTitle = text => {
+export const setTitle = text => {
   document.querySelector('.title').textContent = text;
 };
 
