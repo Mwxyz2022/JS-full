@@ -8,4 +8,4 @@ export const setTitle = text => {
   titleElem.textContent = text;
 };
 
-setTitle('op op op');
+setTitle('some text');
