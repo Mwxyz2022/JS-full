@@ -8,6 +8,7 @@
 //   * event for CleanBtn
 //
 // 3.attachBtn
+//      (!!! По умолчанию Вкл - Вызов фу-ции!!!)
 //   * переменная для эл кнопки attachBtn
 //   * фу-я Вкл ивентов  Всем  Эл.
 //   * Event for attachBtn
