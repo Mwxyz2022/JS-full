@@ -213,17 +213,31 @@ lesson20 - Classes
 
 lesson21 - Document object model (DOM)
 
-    task1 - Todo List - render list
+    task1 - Todo List - render list  +
 
-    hometask1.Поиск элемента на странице
-    hometask2.Поиск нескольких элементов на странице
-    hometask3.Получение содержимого элемента
-    hometask4.Update text content
-    hometask5.Установка дочерних элементов
-    hometask6.Очистка элемента
-    hometask7.Создание DOM элементов и вставка на страницу
-    hometask8.Создание DOM элементов и вставка на страницу - 2
-    hometask9.Установка атрибутов для DOM элементов
-    hometask10.Работа с классами для DOM элементов
-    hometask11.Дата атрибуты (data-attributes)
-    hometask12.Нахождение ближайшего родителя
+    hometask1.Поиск элемента на странице  +
+    hometask2.Поиск нескольких элементов на странице  +
+    hometask3.Получение содержимого элемента  +
+    hometask4.Update text content  +
+    hometask5.Установка дочерних элементов  +
+    hometask6.Очистка элемента  +
+    hometask7.Создание DOM элементов и вставка на страницу  +
+    hometask8.Создание DOM элементов и вставка на страницу - 2  +
+    hometask9.Установка атрибутов для DOM элементов  +
+    hometask10.Работа с классами для DOM элементов  +
+    hometask11.Дата атрибуты (data-attributes)  +
+    hometask12.Нахождение ближайшего родителя  +
+
+lesson22 - Events: browser, handling, bubbling
+
+    task1 - Всплытие и погружение событий
+
+    hometask1 - Обработка события 'click'
+    hometask2 - Обработка события 'change'
+    hometask3 - Handle event for checkbox
+    hometask4 - Поле поиска
+    hometask5 - Single обработка события 'click' на кнопку
+    hometask6 - Event target - считывание текста с кнопки
+    hometask7 - Обработка события 'change'
+    hometask8 - Обработка события 'change' для чекбокса
+    hometask9 - Подписка для нескольких элементов
