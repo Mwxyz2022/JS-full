@@ -59,6 +59,7 @@ const attachEventsElement = () => {
   spanElem.addEventListener('click', logGreySpan, true);
   spanElem.addEventListener('click', logGreenSpan);
 };
+attachEventsElement();
 
 attachBtn.addEventListener('click', attachEventsElement);
 
