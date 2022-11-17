@@ -230,14 +230,21 @@ lesson21 - Document object model (DOM)
 
 lesson22 - Events: browser, handling, bubbling
 
-    task1 - Всплытие и погружение событий
+    task1 - Всплытие и погружение событий +
 
-    hometask1 - Обработка события 'click'
-    hometask2 - Обработка события 'change'
-    hometask3 - Handle event for checkbox
-    hometask4 - Поле поиска
-    hometask5 - Single обработка события 'click' на кнопку
-    hometask6 - Event target - считывание текста с кнопки
-    hometask7 - Обработка события 'change'
-    hometask8 - Обработка события 'change' для чекбокса
-    hometask9 - Подписка для нескольких элементов
+    hometask1 - Обработка события 'click' +
+    hometask2 - Обработка события 'change' +
+    hometask3 - Handle event for checkbox +
+    hometask4 - Поле поиска +
+    hometask5 - Single обработка события 'click' на кнопку +
+    hometask6 - Event target - считывание текста с кнопки +
+    hometask7 - Обработка события 'change' +
+    hometask8 - Обработка события 'change' для чекбокса + 
+    hometask9 - Подписка для нескольких элементов + 
+
+lesson23 - Events: forms, delegation 
+
+    task1 - Работа с формой из JavaScript
+    task2 - Делегирование событий
+
+    hometask1 - Todo List - create/update task
