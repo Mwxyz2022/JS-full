@@ -242,9 +242,19 @@ lesson22 - Events: browser, handling, bubbling
     hometask8 - Обработка события 'change' для чекбокса + 
     hometask9 - Подписка для нескольких элементов + 
 
-lesson23 - Events: forms, delegation 
+lesson23 - Events: forms, delegation +
 
-    task1 - Работа с формой из JavaScript
-    task2 - Делегирование событий
+    task1 - Работа с формой из JavaScript  +
+    task2 - Делегирование событий  +
 
-    hometask1 - Todo List - create/update task
+    hometask1 - Todo List - create/update task  +
+
+lesson24 - Working with dates
+
+    task1 - Установка компонентов даты
+    task2 - Время в Гринвиче
+
+    hometask1 - Разница дат
+
+    addtask1 - Дни рождения студентов
+    addtask2 - Todo List - сортировка задач
