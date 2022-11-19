@@ -1,5 +1,6 @@
 // 1. форматер с настройками отображения часов и минут.
 // 2. (Экспортируемая) фу-я  inp: Date out: UTC'hour:minute'
+
 const formatter = new Intl.DateTimeFormat('en', {
   timeZone: 'UTC',
   hour: '2-digit',
