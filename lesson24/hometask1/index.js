@@ -6,7 +6,7 @@ const thisDayDate = new Date();
 const dateLine = new Date(2022, 0, 1);
 
 // export
-const getDiff = (startDate, endDate) => {
+export const getDiff = (startDate, endDate) => {
   const timeStampDiff = Math.abs(startDate - endDate);
 
   const paramForTime = {
