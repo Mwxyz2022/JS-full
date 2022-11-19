@@ -5,7 +5,7 @@
 
 const testDay = new Date(2022, 6, 21);
 
-const dayOfWeek = (date, days) => {
+export const dayOfWeek = (date, days) => {
   const weekDays = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'St'];
 
   const day = new Date(date).getDate();
