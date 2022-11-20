@@ -4,13 +4,6 @@
 
 // output : { Jan: ['Tom', 'Ben'], Mar: ['Sam'] }
 
-//      1.
-//
-//
-//
-//
-//
-
 const students = [
   { name: 'Ben', birthDate: '01/17/2008' },
   { name: 'Bob', birthDate: '01/18/2008' },
