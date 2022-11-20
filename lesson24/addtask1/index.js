@@ -12,12 +12,12 @@
 //
 
 const students = [
+  { name: 'Ben', birthDate: '01/17/2008' },
   { name: 'Sam', birthDate: '03/15/2010' },
   { name: 'Tom', birthDate: '01/15/2010' },
   { name: 'Den', birthDate: '05/15/2010' },
-  { name: 'Ben', birthDate: '01/17/2008' },
 ];
-console.log(students);
+
 // const studentsBirthDays = students => {
 //   const sortStudents = students.slice().sort(
 //     (a, b) => a.birthDate.split('/')[0] - b.birthDate.split('/')[0],
@@ -72,8 +72,8 @@ const monthsList = {
   11: 'Dec',
 };
 
-export const studentsBirthDays = students => {
-  return students
+export const studentsBirthDays = array => {
+  return array
     .slice()
     .sort((a, b) => new Date(b.birthDate) - new Date(a.birthDate))
     .reduce((acc, el) => {
@@ -90,5 +90,5 @@ export const studentsBirthDays = students => {
     }, {});
 };
 
-console.log(studentsBirthDays(students));
-console.log(students);
+// console.log(studentsBirthDays(students));
+// console.log(students);
