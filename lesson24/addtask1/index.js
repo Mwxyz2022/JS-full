@@ -72,7 +72,7 @@ const monthsList = {
   11: 'Dec',
 };
 
-const studentsBirthDays = students => {
+export const studentsBirthDays = students => {
   return students
     .slice()
     .sort((a, b) => new Date(a.birthDate) - new Date(b.birthDate))
