@@ -13,6 +13,9 @@
 
 const students = [
   { name: 'Ben', birthDate: '01/17/2008' },
+  { name: 'Bob', birthDate: '01/18/2008' },
+  { name: 'Jack', birthDate: '01/18/2006' },
+
   { name: 'Sam', birthDate: '03/15/2010' },
   { name: 'Tom', birthDate: '01/15/2010' },
   { name: 'Den', birthDate: '05/15/2010' },
@@ -75,7 +78,7 @@ const monthsList = {
 export const studentsBirthDays = array => {
   return array
     .slice()
-    .sort((a, b) => new Date(b.birthDate) - new Date(a.birthDate))
+    .sort((a, b) => new Date(a.birthDate) - new Date(b.birthDate))
     .reduce((acc, el) => {
       const month = new Date(el.birthDate).getMonth();
       const key = monthsList[month];
@@ -90,5 +93,5 @@ export const studentsBirthDays = array => {
     }, {});
 };
 
-// console.log(studentsBirthDays(students));
+console.log(studentsBirthDays(students));
 // console.log(students);
