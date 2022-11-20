@@ -251,10 +251,15 @@ lesson23 - Events: forms, delegation +
 
 lesson24 - Working with dates
 
-    task1 - Установка компонентов даты
-    task2 - Время в Гринвиче
+    task1 - Установка компонентов даты +
+    task2 - Время в Гринвиче +
 
-    hometask1 - Разница дат
+    hometask1 - Разница дат +
 
-    addtask1 - Дни рождения студентов
+    addtask1 - Дни рождения студентов 
     addtask2 - Todo List - сортировка задач
+
+lesson25 - Debugger and chrome developer tools +
+
+lesson26 - Javascript project
+
