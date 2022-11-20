@@ -75,7 +75,7 @@ const monthsList = {
 export const studentsBirthDays = students => {
   return students
     .slice()
-    .sort((a, b) => new Date(a.birthDate) - new Date(b.birthDate))
+    .sort((a, b) => new Date(b.birthDate) - new Date(a.birthDate))
     .reduce((acc, el) => {
       const month = new Date(el.birthDate).getMonth();
       const key = monthsList[month];
