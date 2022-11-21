@@ -1,12 +1,4 @@
-const getId = () => Math.floor(Math.random() * 1000).toFixed();
-
-const tasks = [
-  { text: 'Buy milk', done: false, id: getId() },
-  { text: 'Pick up Tom from airport', done: false, id: getId() },
-  { text: 'Visit party', done: false, id: getId() },
-  { text: 'Visit doctor', done: true, id: getId() },
-  { text: 'Buy meat', done: true, id: getId() },
-];
+import { getId, tasks } from './data.js';
 
 //                Render Task
 //
