@@ -12,7 +12,7 @@
 //     (acc, [key, value]) => {
 //       let newValue;
 //       try {
-//         const newValue = JSON.parse(value);
+//          newValue = JSON.parse(value);
 //       } catch (e) {
 //         newValue = value;
 //       }

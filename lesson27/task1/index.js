@@ -4,6 +4,11 @@
 //    2. преобразим данныые localStorage в массив
 //        * преобразим иттерируя массив с пом reduce. в объект
 //        **  значение ключа проверяем на ошибку
+localStorage.clear();
+localStorage.setItem('obj', JSON.stringify({ name: 'Harry' }));
+localStorage.setItem('name', 'Tom');
+localStorage.setItem('age', JSON.stringify(18));
+localStorage.setItem('city', JSON.stringify('Kherson'));
 
 // export
 export const getLocalStorageData = () => {
@@ -11,7 +16,7 @@ export const getLocalStorageData = () => {
     (acc, [key, value]) => {
       let newValue;
       try {
-        const newValue = JSON.parse(value);
+        newValue = JSON.parse(value);
       } catch (e) {
         newValue = value;
       }
@@ -21,4 +26,5 @@ export const getLocalStorageData = () => {
     {},
   );
 };
+
 console.log(getLocalStorageData());
