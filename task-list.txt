@@ -261,5 +261,12 @@ lesson24 - Working with dates
 
 lesson25 - Debugger and chrome developer tools +
 
-lesson26 - Javascript project
+lesson26 - Javascript project 
 
+Lexica27 - Browser (local) storage
+
+    task1 - Получение всех данных localStorage
+    task2 - Событие storage
+    task3 - Список дел + localStorage - сохранение состояния
+
+    addtask1 - Календарь + browser storage
