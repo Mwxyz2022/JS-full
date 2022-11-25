@@ -263,10 +263,23 @@ lesson25 - Debugger and chrome developer tools +
 
 lesson26 - Javascript project 
 
-Lexica27 - Browser (local) storage
+lesson27 - Browser (local) storage
 
-    task1 - Получение всех данных localStorage
+    task1 - Получение всех данных localStorage 
     task2 - Событие storage
     task3 - Список дел + localStorage - сохранение состояния
 
     addtask1 - Календарь + browser storage
+
+lesson28 - Functions advanced approaches
+
+    task1 - Функция calc + 
+    task2 - Проход по дереву с помощью рекурсии
+    task3 - Каррирование
+    task4 - Композиция
+
+    hometask1 - Функция shmoment
+
+    addtask1 - Числа Фибоначчи
+    addtask2 - Сумма чисел с помощью рекурсии
+

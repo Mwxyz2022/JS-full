@@ -2,7 +2,7 @@
 //   * фу - я logTarget('text', 'color') => добавляет элемент
 //   * Добавление фу-и для каждого элемента (погружение / всплытие)
 //
-// 2.Clean
+// 2.Clear
 //   * переменная для эл кнопки Clean
 //   * фу-я очистки event-list
 //   * event for CleanBtn
@@ -10,12 +10,12 @@
 // 3.attachBtn
 //      (!!! По умолчанию Вкл - Вызов фу-ции!!!)
 //   * переменная для эл кнопки attachBtn
-//   * фу-я Вкл ивентов  Всем  Эл.
+//   * фу-я Вкл ивент  Всем  Эл.
 //   * Event for attachBtn
 //
 // 4.removeBtn
 //   * переменная для эл кнопки removeBtn
-//   * фу-я Выкл ивентов  Всем  Эл.
+//   * фу-я Выкл ивент  Всем  Эл.
 //   * Event for removeBtn
 
 const divElem = document.querySelector('.rect_div');

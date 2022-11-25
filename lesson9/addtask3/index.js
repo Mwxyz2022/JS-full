@@ -49,8 +49,6 @@ const obj5 = {
   name: 'Tom',
 };
 
-//    Refactoring    //
-
 // testData
 console.log(compareObjects(obj1, obj2)); // ==> false
 console.log(compareObjects(obj2, obj3)); // ==> false
