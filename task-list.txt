@@ -283,3 +283,12 @@ lesson28 - Functions advanced approaches
     addtask1 - Числа Фибоначчи
     addtask2 - Сумма чисел с помощью рекурсии
 
+lesson29 - Asynchronous code
+
+    task1 - Load image
+    task2 - Write with interval
+    task3 - Testing event loop
+
+    addtask1 - Функция для задержки вызова
+    addtask2 - Load user data
+
