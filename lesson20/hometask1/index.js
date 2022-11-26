@@ -38,6 +38,7 @@ export class Order {
     return false;
   }
 }
+
 //    datatest
 //
 const ord1 = new Order(786, 'Kherson', 'Buy');
