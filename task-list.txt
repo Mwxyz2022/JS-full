@@ -292,3 +292,12 @@ lesson29 - Asynchronous code
     addtask1 - Функция для задержки вызова
     addtask2 - Load user data
 
+lesson30  - Promise intro
+
+    task1 - Promise - first step
+
+    hometask1 - Успешные (resolved) промисы
+    hometask2 - Обработчики успешного промиса
+    hometask3 - Обработчики rejected промиса
+
+    addtaks1 - Promisification
