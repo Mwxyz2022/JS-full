@@ -28,5 +28,5 @@ userDataPromise.then(function onSuccess(userData) {
  */
 
 userDataPromise.then(function onSuccess(userData) {
-  console.log(`'My name is ${userData.name}. I am ${userData.age} years old'`);
+  console.log(`My name is ${userData.name}. I am ${userData.age} years old`);
 });

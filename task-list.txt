@@ -285,19 +285,28 @@ lesson28 - Functions advanced approaches
 
 lesson29 - Asynchronous code
 
-    task1 - Load image
-    task2 - Write with interval
-    task3 - Testing event loop
+    task1 - Load image +
+    task2 - Write with interval +
+    task3 - Testing event loop +
 
     addtask1 - Функция для задержки вызова
     addtask2 - Load user data
 
 lesson30  - Promise intro
 
-    task1 - Promise - first step
+    task1 - Promise - first step + 
 
-    hometask1 - Успешные (resolved) промисы
-    hometask2 - Обработчики успешного промиса
-    hometask3 - Обработчики rejected промиса
+    hometask1 - Успешные (resolved) промисы + 
+    hometask2 - Обработчики успешного промиса + 
+    hometask3 - Обработчики rejected промиса + 
 
-    addtaks1 - Promisification
+    addtaks1 - Promisification 
+
+lesson31 - Promise handlers & chaining
+
+    task1 - Promise handlers
+    task2 - Цепочка промисов
+
+    hometask1 - Фикс цепочки промисов
+    hometask2 - Почти запрос на сервер
+    hometask3 - Задержка цепочки промисов
