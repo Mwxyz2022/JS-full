@@ -304,9 +304,17 @@ lesson30  - Promise intro
 
 lesson31 - Promise handlers & chaining
 
-    task1 - Promise handlers
-    task2 - Цепочка промисов
+    task1 - Promise handlers + 
+    task2 - Цепочка промисов + 
 
-    hometask1 - Фикс цепочки промисов
-    hometask2 - Почти запрос на сервер
-    hometask3 - Задержка цепочки промисов
+    hometask1 - Фикс цепочки промисов + 
+    hometask2 - Почти запрос на сервер + 
+    hometask3 - Задержка цепочки промисов + 
+
+lesson32 - Promise static methods
+
+    task1 - Статические методы промисов
+    task2 - Гонка промисов
+
+    hometask1 - Преобразователь в промис
+    hometask2 - Промис на несколько значений
