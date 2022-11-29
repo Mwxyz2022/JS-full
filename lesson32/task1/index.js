@@ -29,7 +29,8 @@ const getSum = numbers =>
 // 2. пописываемся .then и прокидываем массив в ф-ю getSum
 // 3. проверка на ошибку!!!
 // export
-export const asyncSum = (...asyncNumbers) => {
+const asyncSum = (...asyncNumbers) => {
+  console.log(asyncNumbers);
   return Promise.all(asyncNumbers)
     .then(numbers => getSum(numbers))
     .catch(() => Promise.reject(new Error(`Can't calculate`)));
