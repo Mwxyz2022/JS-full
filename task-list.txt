@@ -313,8 +313,16 @@ lesson31 - Promise handlers & chaining
 
 lesson32 - Promise static methods
 
-    task1 - Статические методы промисов
-    task2 - Гонка промисов
+    task1 - Статические методы промисов +
+    task2 - Гонка промисов +
 
-    hometask1 - Преобразователь в промис
-    hometask2 - Промис на несколько значений
+    hometask1 - Преобразователь в промис +
+    hometask2 - Промис на несколько значений +
+
+lesson33 - Conneсt with server - HTTP
+
+    task1 - GET request with fetch
+
+    hometask1 - GET task info
+
+    addtask1 - Самые активные разработчики
