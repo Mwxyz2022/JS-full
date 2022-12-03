@@ -326,3 +326,12 @@ lesson33 - Conneсt with server - HTTP
     hometask1 - GET task info
 
     addtask1 - Самые активные разработчики
+
+lesson34 - Complex practice with HTTP
+
+      task1 - Todo list - общение с сервером
+
+      hometask1 - CRUD Запросы на сервер
+      hometask2 - Create user form
+
+      addtask1 - Calendar project - REST API integration
