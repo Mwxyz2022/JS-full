@@ -335,3 +335,11 @@ lesson34 - Complex practice with HTTP
       hometask2 - Create user form
 
       addtask1 - Calendar project - REST API integration
+
+lesson35 - Error handling
+
+      task1 - Обработка синхронных ошибок
+      task2 - Обработка ошибок в Promise
+      task3 - Список репозиториев пользователя Github
+
+      hometask1 - Надежный parser
